@@ -1,208 +1,150 @@
-# Welcome to My Development Space
+# AI Engineer & Systems Developer
 
-Full-Stack Developer & AI/ML Engineer
-
-Building intelligent systems, enterprise applications, and scalable solutions with modern technologies
+I build production-ready AI systems that combine advanced retrieval-augmented generation, intelligent agents, machine learning, and reliable backend infrastructure to solve complex problems.
 
 ---
 
-## About Me
+## What I Build
 
-I specialize in developing robust applications that combine cutting-edge technologies with practical problem-solving. Whether it's building data-driven systems, implementing machine learning models, or architecting scalable cloud solutions, I focus on creating systems that matter.
+End-to-end intelligent systems spanning the complete AI application lifecycle:
 
----
+**Problem Definition → Data Pipeline → Model Development → Retrieval Architecture → AI Agent Design → Backend API → Database Integration → Deployment & Scaling**
 
-## Technical Skills
-
-### Backend & Enterprise Development
-- C# - Enterprise applications, Windows development, backend services
-- SQL Server - Database design, optimization, complex queries, stored procedures
-- ASP.NET - Web application development, API design
-
-### Frontend & Web Technologies  
-- HTML5 & CSS3 - Semantic markup, responsive design, modern styling
-- JavaScript - DOM manipulation, async programming, modern web development
-- Frontend Architecture - Component-based design, state management
-
-### Artificial Intelligence & Machine Learning
-- Python - Primary language for ML/AI projects
-- Deep Learning Frameworks
-  - TensorFlow & Keras - Neural network development
-  - LSTM Networks - Sequential data processing
-  - CNN Models - LeNet, ResNet, ResNet50 architectures
-  - YOLO 11 - Object detection and real-time analysis
-
-- Machine Learning Algorithms
-  - Gradient Boosting - Classification and prediction
-  - Self-Organizing Maps (SOM) - Unsupervised learning
-  - Classification Models - Image recognition, pattern detection
-
-- Natural Language Processing
-  - LangChain - LLM orchestration and chains
-  - RAG - Retrieval-Augmented Generation systems
-  - Pinecone - Vector database integration
-
-- Jupyter Notebooks - Data analysis, model development
-
-### AI & LLM Technologies
-- Agentic Systems - LangGraph, multi-tool workflows
-- LLM Integration - Prompt engineering, model fine-tuning
-- Chatbot Development - Conversational AI with tool integration
-
-### Data Science & Analytics
-- Data Preprocessing - Cleaning, transformation, normalization
-- Image Processing - Computer vision, dataset preparation
-- Statistical Analysis - Model evaluation, performance metrics
+My focus is on architectures that work in production: RAG systems that understand when retrieved context is insufficient, agents that reason through multi-step problems, computer vision pipelines for real-world data, and backend systems that reliably serve these models at scale.
 
 ---
 
-## Core Competencies
+## Core Expertise
 
-| Area | Expertise |
-|------|-----------|
-| Application Architecture | Enterprise design patterns, clean code, SOLID principles |
-| Database Design | Schema design, indexing, optimization, stored procedures |
-| API Development | RESTful services, endpoint design, authentication |
-| ML Pipeline | Data preprocessing, training, evaluation, deployment |
-| Computer Vision | Classification, detection, neural architectures |
-| NLP & AI | Language models, RAG systems, semantic search, conversational AI |
-| Full-Stack Dev | Database → Backend → Frontend integration |
-| Problem Solving | Algorithm optimization, performance tuning, debugging |
+### Advanced RAG & Retrieval Systems
+- Production-grade RAG architectures with quality evaluation and regeneration
+- Agentic RAG systems combining retrieval with multi-step reasoning
+- Self-reflective and self-correcting RAG for improved answer quality
+- Query rewriting, routing, and context filtering for better retrieval
+- Semantic search and embeddings optimization
+- Vector database integration (Pinecone, FAISS, Chroma, pgvector)
+- Long-term and short-term memory orchestration
+
+### AI Agents & Agentic Systems
+- Multi-step reasoning with tool integration and execution
+- LangGraph for building stateful agentic workflows
+- Intelligent routing and decision-making systems
+- Tool design and safe execution patterns
+- Memory management for complex agent interactions
+- Enterprise knowledge system automation
+
+### Machine Learning & Computer Vision
+- Deep learning frameworks (TensorFlow, PyTorch, Keras)
+- Convolutional Neural Networks (LeNet, ResNet, YOLO for detection)
+- Transfer learning and fine-tuning for specialized tasks
+- LSTM networks for sequential data processing
+- Unsupervised learning (Self-Organizing Maps)
+- Model evaluation, optimization, and deployment
+- Hands-on computer vision: medical imaging, object detection, classification
+
+### Natural Language Processing
+- LLM integration and orchestration (OpenAI, Anthropic, Gemini, Groq)
+- Prompt engineering for consistent and reliable outputs
+- Fine-tuning and parameter-efficient methods (LoRA, QLoRA)
+- Semantic understanding and text processing
+- Conversational AI and chatbot design
+
+### Backend Development & API Architecture
+- Python: Flask and RESTful API design
+- Node.js: Express and scalable backend services
+- Database design and optimization (PostgreSQL, MongoDB, MySQL)
+- API authentication, error handling, and performance
+- Docker containerization and cloud deployment
+- CI/CD pipelines and infrastructure
+
+---
+
+## Technical Stack
+
+**AI & Machine Learning:** Python, TensorFlow, PyTorch, Keras, Scikit-learn, Hugging Face, LangChain, LangGraph, OpenAI, Anthropic, Groq, Gemini
+
+**Vector Databases & Retrieval:** Pinecone, FAISS, Chroma, pgvector, PostgreSQL
+
+**Backend & APIs:** Python, Flask, Node.js, Express.js, REST, WebSockets
+
+**Databases:** PostgreSQL, MongoDB, MySQL, SQL Server
+
+**Deployment & DevOps:** Docker, Docker Hub, AWS EC2, GitHub Actions, CI/CD
+
+**Other:** Jupyter Notebooks, Git, Linux, API design, prompt engineering, MCP (Model Context Protocol)
 
 ---
 
 ## Featured Projects
 
-### Vehicle Management System
-Enterprise-grade C# backend with T-SQL database architecture for comprehensive fleet management
+### Self-Reflective RAG System
+Advanced retrieval-augmented generation with graded relevance checking, query rewriting when necessary, and answer verification against retrieved information. Demonstrates production RAG beyond basic document-question answering.
 
-[View Repository](https://github.com/BYDiii-Hashmanii/Vehicle_Management_System)
-
----
-
-### Employee Management System
-Full-stack frontend demonstrating modern web development with responsive design
-
-[View Repository](https://github.com/BYDiii-Hashmanii/Employee_Management)
-
----
-
-### Brain Tumor Detection System
-Advanced computer vision with YOLO 11 for real-time medical imaging analysis
-
-[View Repository](https://github.com/BYDiii-Hashmanii/BrainTumor-Detection)
-
----
+[Repository](https://github.com/BYDiii-Hashmanii/self_Rag)
 
 ### Agentic Chatbot with LangGraph
-Intelligent conversational system with tool integration and multi-step reasoning
+Intelligent conversational system with tool integration, multi-step reasoning, and stateful workflows. Shows core agentic AI patterns for handling complex user requests.
 
-[View Repository](https://github.com/BYDiii-Hashmanii/simple_langraph_chatbot)
+[Repository](https://github.com/BYDiii-Hashmanii/simple_langraph_chatbot)
 
----
+### Enterprise HR Knowledge Assistant
+RAG-powered system for managing and retrieving company HR policies, automating knowledge access for employees. Demonstrates practical RAG application with real business value.
 
-### CNN Model Experiments
-LeNet, ResNet, and ResNet50 architectures with transfer learning
+[Repository](https://github.com/BYDiii-Hashmanii/company_hr_policies_bot)
 
-[View Repository](https://github.com/BYDiii-Hashmanii/Cnn_model)
+### Brain Tumor Detection System
+Computer vision pipeline using YOLO 11 for real-time medical imaging analysis. Shows deep learning applied to safety-critical real-world problems.
 
----
+[Repository](https://github.com/BYDiii-Hashmanii/BrainTumor-Detection)
 
-### NLP & RAG System
-Production-ready Retrieval-Augmented Generation with semantic search
+### NLP with Semantic Search & RAG
+Production-ready retrieval pipeline with Pinecone vector database, semantic search, and relevance-graded retrieval. Demonstrates embeddings strategy and vector database optimization.
 
-[View Repository](https://github.com/BYDiii-Hashmanii/nlp_sample_with_simple_Rag)
+[Repository](https://github.com/BYDiii-Hashmanii/nlp_sample_with_simple_Rag)
 
----
+### PDF Intelligence System
+LangChain-based system for parsing, understanding, and retrieving information from unstructured PDF documents. Shows document intelligence and RAG foundations.
 
-### Next Word Prediction with LSTM
-Sequence-to-sequence learning for intelligent text prediction
+[Repository](https://github.com/BYDiii-Hashmanii/Langchain_Pdf_work)
 
-[View Repository](https://github.com/BYDiii-Hashmanii/next_word_prediction)
+### Deep Learning Model Comparison
+Comparative study of CNN architectures (LeNet, ResNet, ResNet50) with transfer learning on custom image datasets. Demonstrates model training, evaluation, and architectural choices.
 
----
+[Repository](https://github.com/BYDiii-Hashmanii/Cnn_model)
 
-### Self-Organizing Map (SOM)
-Unsupervised learning for pattern recognition and dimensionality reduction
+### Sequential Learning: Next Word Prediction
+LSTM-based language model for text generation and prediction. Shows understanding of recurrent architectures and sequence-to-sequence learning.
 
-[View Repository](https://github.com/BYDiii-Hashmanii/SOM)
+[Repository](https://github.com/BYDiii-Hashmanii/next_word_prediction)
 
----
+### Student Mental Health Prediction
+Gradient Boosting model for depression risk assessment. Demonstrates applied ML for meaningful real-world impact with proper evaluation metrics.
 
-### Student Depression Analysis
-Predictive analytics using Gradient Boosting for mental health assessment
-
-[View Repository](https://github.com/BYDiii-Hashmanii/Student_depression_Analysis)
-
----
-
-### MNIST Digit Recognition
-Handwritten digit classification with foundational deep learning
-
-[View Repository](https://github.com/BYDiii-Hashmanii/Mnist_prediction)
+[Repository](https://github.com/BYDiii-Hashmanii/Student_depression_Analysis)
 
 ---
 
-## MCP Servers & Integrations
+## What I'm Exploring
 
-### Model Context Protocol (MCP) Expertise
-- Integration with Claude AI and modern LLM ecosystems
-- Building AI-powered applications with structured context management
-- LLM-driven development tools and automation
-
-### Supported Technologies
-- LangChain - Framework for LLM applications
-- LangGraph - Stateful agentic workflows
-- Pinecone - Vector database integration
-- Prompt Engineering - Optimization for consistent outputs
-- Tool Integration - Building callable AI tools
-
-### Practical Applications
-- AI assistants with multi-step reasoning
-- RAG systems for knowledge-enhanced generation
-- Automated workflows with LLM orchestration
-- Context-aware chatbots with tool ecosystems
-- Data-driven AI agents for complex tasks
+- Multimodal AI systems combining vision, language, and reasoning
+- Advanced retrieval strategies for domain-specific knowledge
+- Scaling agentic systems for enterprise workflows
+- Efficient inference and model optimization for production constraints
+- AI-driven automation platforms
 
 ---
 
-## Development Philosophy
+## Contact & Connect
 
-Building solutions that matter, with code that lasts
+Always interested in discussions about:
+- Advanced RAG architecture and optimization
+- Agentic AI system design
+- Production ML/AI challenges
+- Building intelligent backend systems
+- Computer vision applications
 
-Code Quality - Clean, maintainable, well-documented code  
-Scalability - Systems designed to grow with requirements  
-Performance - Optimized algorithms and database queries  
-User Experience - Intuitive and responsive interfaces  
-Continuous Learning - Staying current with technologies  
-Practical Solutions - Balancing perfection with pragmatism  
-
----
-
-## Let's Collaborate
-
-Open to exciting projects involving:
-
-- Full-Stack Development
-- Machine Learning
-- AI Systems
-- Data Analytics
-- Performance Optimization
-- Open Source
-
-Feel free to explore my repositories, raise issues, or reach out for collaboration!
+Reach out for collaboration, technical discussions, or interesting AI/ML projects.
 
 ---
 
-## Quick Stats
-
-| Metric | Count |
-|--------|-------|
-| Active Projects | 12+ |
-| Focus Areas | Full-Stack, AI/ML, Computer Vision, NLP |
-| Languages | C#, Python, JavaScript, T-SQL, HTML/CSS |
-| Specialization | Enterprise + AI-Powered Systems |
-
----
-
-Last Updated: May 2026 | Always Learning | Building Tomorrow's Solutions Today
+Last Updated: 2026
