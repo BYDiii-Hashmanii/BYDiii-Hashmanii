@@ -1,150 +1,406 @@
-# AI Engineer & Systems Developer
+<div align="center">
 
-I build production-ready AI systems that combine advanced retrieval-augmented generation, intelligent agents, machine learning, and reliable backend infrastructure to solve complex problems.
+# OBAID UR RAHMAN
+
+### AI Engineer | Advanced RAG | Agentic AI | Machine Learning | Computer Vision
+
+</div>
+
+---
+
+<div align="center" style="margin: 40px 0; padding: 30px 0; border-top: 2px solid #58a6ff; border-bottom: 2px solid #7928ca;">
+
+I design and build **intelligent systems** that combine advanced retrieval architectures, autonomous AI agents, machine learning, computer vision, and scalable backend infrastructure.
+
+I don't just implement AI—I architect it.
+
+</div>
+
+---
+
+## Professional Positioning
+
+> **Businesses don't need more AI. They need AI that actually works.**
+
+I specialize in building production-grade AI systems that think, reason, retrieve, and act. My focus is on systems that solve real problems through intelligent architecture, not quick hacks.
 
 ---
 
 ## What I Build
 
-End-to-end intelligent systems spanning the complete AI application lifecycle:
+<table>
+<tr>
+<td width="33%">
 
-**Problem Definition → Data Pipeline → Model Development → Retrieval Architecture → AI Agent Design → Backend API → Database Integration → Deployment & Scaling**
+### Intelligent AI Systems
+- Advanced RAG Architectures
+- Agentic AI & Autonomous Agents
+- LLM Applications
+- AI Automation
+- Memory & Reasoning Systems
+- Multi-Agent Workflows
 
-My focus is on architectures that work in production: RAG systems that understand when retrieved context is insufficient, agents that reason through multi-step problems, computer vision pipelines for real-world data, and backend systems that reliably serve these models at scale.
+</td>
+<td width="33%">
+
+### Machine Intelligence
+- Machine Learning Pipelines
+- Deep Learning & Neural Networks
+- Computer Vision
+- Natural Language Processing
+- Model Fine-Tuning & Optimization
+- Embeddings & Semantic Search
+
+</td>
+<td width="33%">
+
+### Production Engineering
+- Python Backend Systems
+- Node.js Applications
+- REST APIs & Microservices
+- Database Design & Optimization
+- Docker & Container Orchestration
+- AWS & Cloud Deployment
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Core Expertise
+## Advanced RAG: Core Expertise
 
-### Advanced RAG & Retrieval Systems
-- Production-grade RAG architectures with quality evaluation and regeneration
-- Agentic RAG systems combining retrieval with multi-step reasoning
-- Self-reflective and self-correcting RAG for improved answer quality
-- Query rewriting, routing, and context filtering for better retrieval
-- Semantic search and embeddings optimization
-- Vector database integration (Pinecone, FAISS, Chroma, pgvector)
-- Long-term and short-term memory orchestration
+Advanced Retrieval-Augmented Generation is where I excel. I move beyond basic RAG by implementing sophisticated evaluation, routing, and feedback mechanisms.
 
-### AI Agents & Agentic Systems
-- Multi-step reasoning with tool integration and execution
-- LangGraph for building stateful agentic workflows
-- Intelligent routing and decision-making systems
-- Tool design and safe execution patterns
-- Memory management for complex agent interactions
-- Enterprise knowledge system automation
+### RAG Pipeline Architecture
 
-### Machine Learning & Computer Vision
-- Deep learning frameworks (TensorFlow, PyTorch, Keras)
-- Convolutional Neural Networks (LeNet, ResNet, YOLO for detection)
-- Transfer learning and fine-tuning for specialized tasks
-- LSTM networks for sequential data processing
-- Unsupervised learning (Self-Organizing Maps)
-- Model evaluation, optimization, and deployment
-- Hands-on computer vision: medical imaging, object detection, classification
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     USER QUERY                              │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │    QUERY ANALYSIS & ROUTING   │
+        │  (Intent + Classification)    │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │  SEMANTIC RETRIEVAL ENGINE   │
+        │  (Vector + Hybrid Search)    │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │   RELEVANCE GRADING & EVAL   │
+        │  (Context Quality Assessment)│
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │   CONTEXT FILTERING & RANK   │
+        │  (Precision + Redundancy)    │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │  LLM GROUNDED GENERATION     │
+        │  (With Retrieved Context)    │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │   VERIFICATION & GROUNDING   │
+        │  (Fact Checking Loop)        │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │    REGENERATION IF NEEDED    │
+        │  (Fallback & Refinement)     │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────┐
+        │      FINAL ANSWER OUTPUT     │
+        └──────────────────────────────┘
+```
 
-### Natural Language Processing
-- LLM integration and orchestration (OpenAI, Anthropic, Gemini, Groq)
-- Prompt engineering for consistent and reliable outputs
-- Fine-tuning and parameter-efficient methods (LoRA, QLoRA)
-- Semantic understanding and text processing
-- Conversational AI and chatbot design
+### Beyond Basic RAG
 
-### Backend Development & API Architecture
-- Python: Flask and RESTful API design
-- Node.js: Express and scalable backend services
-- Database design and optimization (PostgreSQL, MongoDB, MySQL)
-- API authentication, error handling, and performance
-- Docker containerization and cloud deployment
-- CI/CD pipelines and infrastructure
+My RAG implementations include:
+
+- **Query Optimization** — Rewriting, decomposition, and multi-hop retrieval
+- **Intelligent Routing** — Directing queries to the right retrieval strategy
+- **Relevance Grading** — LLM-based evaluation of document relevance
+- **Context Filtering** — Intelligent pruning of irrelevant or redundant context
+- **Grounded Verification** — Ensuring generated answers are factually grounded
+- **Agentic Workflows** — Adding reasoning loops and decision-making
+- **Memory Integration** — Conversation history and context persistence
+- **Adaptive Retrieval** — Dynamic adjustments based on retrieval results
+
+---
+
+## Self-Reflective Agentic RAG
+
+My most sophisticated architecture combines agentic reasoning with reflective RAG evaluation.
+
+### Intelligent Feedback Loop
+
+```
+                    ┌─────────────────┐
+                    │   USER QUERY    │
+                    └────────┬────────┘
+                             │
+              ┌──────────────▼───────────────┐
+              │  INITIAL RETRIEVAL & EVAL    │
+              └──────────────┬───────────────┘
+                             │
+              ┌──────────────▼───────────────┐
+              │  RELEVANCE SUFFICIENT?       │
+              └──────────────┬───────────────┘
+                      NO /   │   \ YES
+                        /    │    \
+                   ┌─────────▼────────┐
+                   │  QUERY REWRITE   │
+                   │  & RE-RETRIEVE   │
+                   └─────────┬────────┘
+                             │
+              ┌──────────────▼───────────────┐
+              │   CONTEXT EVALUATION        │
+              │   (Reasoning Agent)         │
+              └──────────────┬───────────────┘
+                             │
+              ┌──────────────▼───────────────┐
+              │  GENERATE WITH VERIFICATION │
+              └──────────────┬───────────────┘
+                             │
+              ┌──────────────▼───────────────┐
+              │  GROUNDING CHECK            │
+              │  (Fact Verification)        │
+              └──────────────┬───────────────┘
+                      PASS / \ FAIL
+                        /    │  \
+            ┌─────────────────▼────────────┐
+            │   FINAL ANSWER GENERATION    │
+            │   (or Regeneration Loop)     │
+            └─────────────────────────────┘
+```
+
+This is not a simple pipeline—it's an **intelligent feedback system** where:
+- The agent evaluates if initial retrieval is sufficient
+- If not, it reformulates the query and retrieves again
+- Context is analyzed for relevance and consistency
+- Generated answers are grounded against the source documents
+- Failed verifications trigger regeneration with refined context
+
+This demonstrates real **AI system architecture**, not just prompt chaining.
 
 ---
 
 ## Technical Stack
 
-**AI & Machine Learning:** Python, TensorFlow, PyTorch, Keras, Scikit-learn, Hugging Face, LangChain, LangGraph, OpenAI, Anthropic, Groq, Gemini
+### AI & LLM Frameworks
+| Technology | Specialty |
+|---|---|
+| **LangChain** | Orchestration & chains |
+| **LangGraph** | Multi-agent workflows |
+| **OpenAI** | GPT-4, GPT-3.5 |
+| **Anthropic Claude** | Advanced reasoning |
+| **Google Gemini** | Multimodal capabilities |
+| **Groq** | Low-latency inference |
+| **Hugging Face** | Open models & transformers |
+| **Model Context Protocol (MCP)** | Standardized AI integrations |
 
-**Vector Databases & Retrieval:** Pinecone, FAISS, Chroma, pgvector, PostgreSQL
+### Retrieval & Vectors
+| Technology | Specialty |
+|---|---|
+| **Pinecone** | Managed vector database |
+| **FAISS** | Efficient similarity search |
+| **Chroma** | Lightweight embeddings |
+| **pgvector** | PostgreSQL vectors |
+| **PostgreSQL** | Structured + vectors |
+| **Semantic Search** | Dense retrieval |
 
-**Backend & APIs:** Python, Flask, Node.js, Express.js, REST, WebSockets
+### Machine Learning & CV
+| Technology | Specialty |
+|---|---|
+| **PyTorch** | Deep learning framework |
+| **TensorFlow** | Large-scale ML |
+| **Scikit-learn** | Classical ML |
+| **OpenCV** | Computer vision |
+| **LoRA / QLoRA** | Efficient fine-tuning |
+| **NLP & Transformers** | Text understanding |
 
-**Databases:** PostgreSQL, MongoDB, MySQL, SQL Server
+### Backend Engineering
+| Technology | Specialty |
+|---|---|
+| **Python** | Primary language |
+| **Flask** | Lightweight API framework |
+| **Node.js** | JavaScript backend |
+| **Express.js** | REST API development |
+| **REST APIs** | Scalable integrations |
+| **MongoDB** | NoSQL databases |
+| **PostgreSQL** | Relational databases |
 
-**Deployment & DevOps:** Docker, Docker Hub, AWS EC2, GitHub Actions, CI/CD
-
-**Other:** Jupyter Notebooks, Git, Linux, API design, prompt engineering, MCP (Model Context Protocol)
+### Infrastructure & DevOps
+| Technology | Specialty |
+|---|---|
+| **Docker** | Container orchestration |
+| **AWS EC2** | Cloud compute |
+| **Docker Hub** | Image registry |
+| **GitHub** | Version control & CI/CD |
+| **CI/CD Pipelines** | Automated deployment |
 
 ---
 
 ## Featured Projects
 
 ### Self-Reflective RAG System
-Advanced retrieval-augmented generation with graded relevance checking, query rewriting when necessary, and answer verification against retrieved information. Demonstrates production RAG beyond basic document-question answering.
 
-[Repository](https://github.com/BYDiii-Hashmanii/self_Rag)
+**Intelligent retrieval system with autonomous reasoning and adaptive querying**
+
+- **What I Built:** Multi-stage RAG pipeline with relevance evaluation, agentic query reformulation, self-grading mechanism, adaptive context filtering, and conversation memory
+- **Architecture:** LangGraph-based multi-agent workflow, LLM-powered relevance assessment, query rewriting agents, grounded verification loops, dynamic regeneration
+- **Tech Stack:** Python, LangChain, LangGraph, OpenAI, Pinecone, PostgreSQL
+
+[View Repository](https://github.com/BYDiii-Hashmanii/self_Rag)
+
+---
 
 ### Agentic Chatbot with LangGraph
-Intelligent conversational system with tool integration, multi-step reasoning, and stateful workflows. Shows core agentic AI patterns for handling complex user requests.
 
-[Repository](https://github.com/BYDiii-Hashmanii/simple_langraph_chatbot)
+**Intelligent conversational system with tool integration and multi-step reasoning**
+
+- **What I Built:** Stateful multi-turn conversation handler with tool execution, reasoning loop integration, and context management
+- **Architecture:** LangGraph workflow design, tool calling framework, state persistence, multi-step reasoning
+- **Tech Stack:** Python, LangGraph, LangChain, OpenAI
+
+[View Repository](https://github.com/BYDiii-Hashmanii/simple_langraph_chatbot)
+
+---
 
 ### Enterprise HR Knowledge Assistant
-RAG-powered system for managing and retrieving company HR policies, automating knowledge access for employees. Demonstrates practical RAG application with real business value.
 
-[Repository](https://github.com/BYDiii-Hashmanii/company_hr_policies_bot)
+**RAG-powered system for managing HR policies and automating knowledge access**
+
+- **What I Built:** Production RAG system with document ingestion, semantic retrieval, and policy-specific response generation
+- **Architecture:** Document processing pipeline, vector embeddings, relevance ranking, multi-document context merging
+- **Tech Stack:** Python, LangChain, Pinecone, Flask, PostgreSQL
+
+[View Repository](https://github.com/BYDiii-Hashmanii/company_hr_policies_bot)
+
+---
 
 ### Brain Tumor Detection System
-Computer vision pipeline using YOLO 11 for real-time medical imaging analysis. Shows deep learning applied to safety-critical real-world problems.
 
-[Repository](https://github.com/BYDiii-Hashmanii/BrainTumor-Detection)
+**Computer vision pipeline using YOLO for real-time medical imaging analysis**
+
+- **What I Built:** Deep learning model for medical image classification, real-time inference system, result visualization
+- **Architecture:** YOLO 11 fine-tuning, image preprocessing pipeline, confidence scoring, batch processing
+- **Tech Stack:** Python, PyTorch, OpenCV, YOLO, Flask
+
+[View Repository](https://github.com/BYDiii-Hashmanii/BrainTumor-Detection)
+
+---
 
 ### NLP with Semantic Search & RAG
-Production-ready retrieval pipeline with Pinecone vector database, semantic search, and relevance-graded retrieval. Demonstrates embeddings strategy and vector database optimization.
 
-[Repository](https://github.com/BYDiii-Hashmanii/nlp_sample_with_simple_Rag)
+**Production-ready retrieval pipeline with vector database optimization**
+
+- **What I Built:** Semantic search engine with Pinecone integration, relevance grading, and retrieval pipeline
+- **Architecture:** Text embeddings optimization, vector database indexing, hybrid search strategies, result ranking
+- **Tech Stack:** Python, LangChain, Pinecone, Hugging Face, OpenAI
+
+[View Repository](https://github.com/BYDiii-Hashmanii/nlp_sample_with_simple_Rag)
+
+---
 
 ### PDF Intelligence System
-LangChain-based system for parsing, understanding, and retrieving information from unstructured PDF documents. Shows document intelligence and RAG foundations.
 
-[Repository](https://github.com/BYDiii-Hashmanii/Langchain_Pdf_work)
+**LangChain-based system for parsing and retrieving information from PDFs**
+
+- **What I Built:** Document parser, semantic search across documents, context-aware extraction
+- **Architecture:** PDF processing pipeline, document chunking, embedding generation, retrieval chains
+- **Tech Stack:** Python, LangChain, OpenAI, Flask
+
+[View Repository](https://github.com/BYDiii-Hashmanii/Langchain_Pdf_work)
+
+---
 
 ### Deep Learning Model Comparison
-Comparative study of CNN architectures (LeNet, ResNet, ResNet50) with transfer learning on custom image datasets. Demonstrates model training, evaluation, and architectural choices.
 
-[Repository](https://github.com/BYDiii-Hashmanii/Cnn_model)
+**Comparative study of CNN architectures with transfer learning**
+
+- **What I Built:** LeNet, ResNet, ResNet50 implementations with transfer learning on custom datasets
+- **Architecture:** Model architecture comparison, transfer learning pipeline, evaluation metrics
+- **Tech Stack:** Python, PyTorch, TensorFlow, Scikit-learn
+
+[View Repository](https://github.com/BYDiii-Hashmanii/Cnn_model)
+
+---
 
 ### Sequential Learning: Next Word Prediction
-LSTM-based language model for text generation and prediction. Shows understanding of recurrent architectures and sequence-to-sequence learning.
 
-[Repository](https://github.com/BYDiii-Hashmanii/next_word_prediction)
+**LSTM-based language model for text generation**
+
+- **What I Built:** Recurrent neural network for sequence-to-sequence learning and text generation
+- **Architecture:** LSTM cell design, sequence modeling, output probability distribution
+- **Tech Stack:** Python, TensorFlow, Keras
+
+[View Repository](https://github.com/BYDiii-Hashmanii/next_word_prediction)
+
+---
 
 ### Student Mental Health Prediction
-Gradient Boosting model for depression risk assessment. Demonstrates applied ML for meaningful real-world impact with proper evaluation metrics.
 
-[Repository](https://github.com/BYDiii-Hashmanii/Student_depression_Analysis)
+**Gradient Boosting model for depression risk assessment**
 
----
+- **What I Built:** Predictive ML model with feature engineering and proper evaluation metrics
+- **Architecture:** Data preprocessing, feature selection, model training, cross-validation
+- **Tech Stack:** Python, Scikit-learn, XGBoost, Pandas
 
-## What I'm Exploring
-
-- Multimodal AI systems combining vision, language, and reasoning
-- Advanced retrieval strategies for domain-specific knowledge
-- Scaling agentic systems for enterprise workflows
-- Efficient inference and model optimization for production constraints
-- AI-driven automation platforms
+[View Repository](https://github.com/BYDiii-Hashmanii/Student_depression_Analysis)
 
 ---
 
-## Contact & Connect
+## Currently Exploring & Building
 
-Always interested in discussions about:
-- Advanced RAG architecture and optimization
-- Agentic AI system design
-- Production ML/AI challenges
-- Building intelligent backend systems
-- Computer vision applications
+<div style="padding: 20px; border-left: 4px solid #58a6ff; background-color: rgba(88, 166, 255, 0.05);">
 
-Reach out for collaboration, technical discussions, or interesting AI/ML projects.
+**Advanced Agentic RAG**
+Taking RAG beyond retrieval into true multi-agent reasoning systems with tool use and planning.
+
+**AI Automation at Scale**
+Building frameworks for business process automation with LLM-powered decision making.
+
+**LLM Applications & MCP**
+Exploring Model Context Protocol for standardized tool integration and multi-tool orchestration.
+
+**Computer Vision in Production**
+Scaling CV models with optimization, quantization, and real-time inference.
+
+**Hybrid Retrieval Systems**
+Combining semantic search, BM25, and graph-based retrieval for maximum recall and precision.
+
+**AI Backend Infrastructure**
+Building scalable APIs for AI model serving with monitoring, caching, and optimization.
+
+</div>
 
 ---
 
-Last Updated: 2026
+## Connect With Me
+
+<div align="center">
+
+**[LinkedIn](https://linkedin.com)** | **[Portfolio](#)** | **[GitHub](https://github.com/BYDiii-Hashmanii)** | **[Email](#)**
+
+</div>
+
+<div align="center" style="margin-top: 50px; padding: 20px 0; border-top: 2px solid #7928ca;">
+
+**Building intelligent systems that actually work.**
+
+</div>
